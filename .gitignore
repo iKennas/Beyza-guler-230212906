@@ -17,6 +17,9 @@ runs/
 # Datasets (large; do not push to GitHub — recreate with scripts/prepare_coco_val5k.py, train_segment_finetune.py, etc.)
 datasets/
 
+# Local / private (do not publish)
+GEMINI_CONTEXT.json
+
 # IDE / OS
 .idea/
 .vscode/
