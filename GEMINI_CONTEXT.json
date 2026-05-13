@@ -117,7 +117,7 @@
     "defaults": "Processes runs/segment/train30_coco_val5k/results.csv and runs/segment/finetune_lite_v2/results.csv if present; qualitative pair defaults to data/samples/bus.jpg vs outputs/seg_bus.jpg.",
     "cli": "Optional --results paths, --out-dir, --qual-input, --qual-output, --qual-name (output stem), --only-qualitative (skip CSV plots)."
   },
-  "gitignore_policy_summary": "Ignores Python caches, venvs, all .pt weights, runs/, outputs/, outputs_finetuned/, the entire datasets/ tree (COCO subsets, labels, zips, generated YAMLs — recreate locally), common IDE/OS junk.",
+  "gitignore_policy_summary": "Ignores Python caches, venvs, stray *.pt outside weights/, runs/, the entire datasets/ tree (recreate locally), common IDE/OS junk. weights/*.pt and outputs/ are tracked for assignment submission.",
   "readme_location": "README.md contains setup venv/pip, student line, script table, and layout bullets.",
   "common_user_questions_covered": [
     "Where do I put weights? → weights/",
